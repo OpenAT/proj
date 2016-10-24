@@ -1,0 +1,430 @@
+/*
+skins available:
+	- universal
+	- classic
+	- attractive
+*/
+
+/* the container */
+.allinone_bannerRotator {
+	position:relative;
+	cursor: url(skins/hand.cur),url(skins/hand.cur),move;
+}
+.allinone_bannerRotator img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width:100%;
+	max-height:100%;
+}
+.allinone_bannerRotator .stripe {
+	position:absolute;
+	display:block;
+	height:100%;
+	z-index:1;
+}
+.allinone_bannerRotator .block {
+	position:absolute;
+	display:block;
+	z-index:1;
+}
+
+/***ATTRACTIVE SKIN***/
+.allinone_bannerRotator.attractive .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+.allinone_bannerRotator.attractive .leftNav {
+	position:absolute;
+	left:-15px;
+	top:50%;
+	margin-top:-63px; /* height/2 */
+	width:53px;
+	height:127px;
+	background:url(skins/attractive/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.attractive .leftNav:hover {
+	background:url(skins/attractive/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.attractive .rightNav {
+	position:absolute;
+	right:-15px;
+	top:50%;
+	margin-top:-63px; /* height/2 */
+	width:53px;
+	height:127px;
+	background:url(skins/attractive/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.attractive .rightNav:hover {
+	background:url(skins/attractive/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.attractive .bottomNav {
+	position:absolute;
+	background:#532860;
+	height:35px;
+	width:0;
+	padding-left:9px;
+	bottom:-10px;
+	z-index:4;
+}
+.allinone_bannerRotator.attractive .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:11px;
+	height:11px;
+	background:url(skins/attractive/bottomNavOFF.png) 0 0 no-repeat;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.attractive .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:11px;
+	height:11px;
+	padding-left:9px;
+	background:url(skins/attractive/bottomNavON.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.attractive .bottomNavLeft {
+	position:absolute;
+	width:63px;
+	height:35px;
+	background:url(skins/attractive/bottomNavLeft.png) 0 0 no-repeat;
+	bottom:-10px;
+	z-index:4;
+}
+.allinone_bannerRotator.attractive .bottomNavRight {
+	position:absolute;
+	width:63px;
+	height:35px;
+	background:url(skins/attractive/bottomNavRight.png) 0 0 no-repeat;
+	bottom:-10px;
+	z-index:4;
+}
+
+.allinone_bannerRotator.attractive .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:106px;
+	background:url(skins/attractive/bottomOverThumbBg.png) 23px bottom no-repeat;
+	bottom:27px;
+	margin-left:-25px;
+}
+.allinone_bannerRotator.attractive .bottomOverThumb img {
+	border:4px solid #22032e;
+}
+
+
+/***CLASSIC SKIN***/
+.allinone_bannerRotator.classic .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+.allinone_bannerRotator.classic .leftNav {
+	position:absolute;
+	left:4px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/classic/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.classic .leftNav:hover {
+	background:url(skins/classic/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.classic .rightNav {
+	position:absolute;
+	right:4px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/classic/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.classic .rightNav:hover {
+	background:url(skins/classic/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.classic .bottomNav {
+	position:absolute;
+	background:url(skins/classic/bottomNavBg.png) 0 0 repeat-x;
+	width:0px;
+	height:24px;
+	bottom:5px;
+	z-index:4;
+	padding-left:9px;
+}
+.allinone_bannerRotator.classic .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:11px;
+	height:11px;
+	background:url(skins/classic/bottomNavOFF.png) 0 0 no-repeat;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.classic .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:11px;
+	height:11px;
+	padding-left:9px;
+	background:url(skins/classic/bottomNavON.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.classic .bottomNavLeft {
+	position:absolute;
+	width:0px;
+	display:none;
+	background:#F00;
+	height:24px;
+	bottom:5px;
+	z-index:4;
+}
+.allinone_bannerRotator.classic .bottomNavRight {
+	position:absolute;
+	width:0px;
+	display:none;
+	height:24px;
+	background:#F00;
+	bottom:5px;
+	z-index:4;
+}
+
+.allinone_bannerRotator.classic .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:106px;
+	background:url(skins/classic/bottomOverThumbBg.png) 23px bottom no-repeat;
+	bottom:27px;
+	margin-left:-25px;
+}
+.allinone_bannerRotator.classic .bottomOverThumb img {
+	border:4px solid #000000;
+}
+
+
+
+
+
+/***UNIVERSAL SKIN***/
+.allinone_bannerRotator.universal .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+.allinone_bannerRotator.universal .leftNav {
+	position:absolute;
+	left:10px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/universal/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.universal .leftNav:hover {
+	background:url(skins/universal/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.universal .rightNav {
+	position:absolute;
+	right:10px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/universal/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.universal .rightNav:hover {
+	background:url(skins/universal/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.universal .bottomNav {
+	position:absolute;
+	width:0px;
+	height:24px;
+	bottom:-35px;
+	z-index:4;
+	padding-left:9px;
+}
+.allinone_bannerRotator.universal .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:14px;
+	height:14px;
+	background:url(skins/universal/bottomNavOFF.png) 0 0 no-repeat;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.universal .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:14px;
+	height:14px;
+	padding-left:9px;
+	background:url(skins/universal/bottomNavON.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.universal .bottomNavLeft {
+	position:absolute;
+	width:0px;
+	display:none;
+	background:#F00;
+	height:24px;
+	bottom:5px;
+	z-index:4;
+}
+.allinone_bannerRotator.universal .bottomNavRight {
+	position:absolute;
+	width:0px;
+	display:none;
+	height:24px;
+	background:#F00;
+	bottom:5px;
+	z-index:4;
+}
+
+.allinone_bannerRotator.universal .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:106px;
+	background:url(skins/universal/bottomOverThumbBg.png) 23px bottom no-repeat;
+	bottom:27px;
+	margin-left:-25px;
+}
+.allinone_bannerRotator.universal .bottomOverThumb img {
+	border:4px solid #000000;
+}
+
+
+
+/***Text Styles***/
+
+
+.allinone_bannerRotator_texts {
+	position:absolute;
+	z-index:3;
+	display: none;
+	width:100%;
+	text-align:left;
+}
+.allinone_bannerRotator_text_line {
+	position:absolute;
+}
+
+
+.hideElement {
+	display:none;
+}
+
+/***CUSTOMER SKIN***/
+.allinone_bannerRotator.custom .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+.allinone_bannerRotator.custom .leftNav {
+	position:absolute;
+	left:10px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/custom/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.custom .leftNav:hover {
+	background:url(skins/custom/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.custom .rightNav {
+	position:absolute;
+	right:10px;
+	top:50%;
+	margin-top:-20px; /* height/2 */
+	width:41px;
+	height:41px;
+	background:url(skins/custom/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerRotator.custom .rightNav:hover {
+	background:url(skins/custom/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerRotator.custom .bottomNav {
+	position:absolute;
+	width:0px;
+	height:24px;
+	bottom:-35px;
+	z-index:4;
+	padding-left:9px;
+}
+.allinone_bannerRotator.custom .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:14px;
+	height:14px;
+	background:url(skins/custom/bottomNavOFF.png) 0 0 no-repeat;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.custom .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:14px;
+	height:14px;
+	padding-left:9px;
+	background:url(skins/custom/bottomNavON.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_bannerRotator.custom .bottomNavLeft {
+	position:absolute;
+	width:0px;
+	display:none;
+	background:#F00;
+	height:24px;
+	bottom:5px;
+	z-index:4;
+}
+.allinone_bannerRotator.custom .bottomNavRight {
+	position:absolute;
+	width:0px;
+	display:none;
+	height:24px;
+	background:#F00;
+	bottom:5px;
+	z-index:4;
+}
+
+.allinone_bannerRotator.custom .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:106px;
+	background:url(skins/custom/bottomOverThumbBg.png) 23px bottom no-repeat;
+	bottom:27px;
+	margin-left:-25px;
+}
+.allinone_bannerRotator.custom .bottomOverThumb img {
+	border:4px solid #000000;
+}
+
+

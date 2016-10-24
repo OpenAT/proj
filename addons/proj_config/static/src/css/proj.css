@@ -19,3 +19,23 @@
   footer a:hover {
       text-decoration: none;
   }
+
+  /* Product Page */
+.ppt_opc #wsd-checkout-box img.product-image {
+  display: none;
+}
+
+
+#website_cookie_notice {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    background-color: #000!important;
+    overflow: hidden;
+    z-index: 9001;
+}
+#website_cookie_notice a {
+    color: #e72e30;
+}

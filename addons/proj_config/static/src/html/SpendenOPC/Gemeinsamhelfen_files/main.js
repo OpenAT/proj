@@ -17,3 +17,8 @@ window.onload=function() {
   // initialize the eventhandlers
   linkopener();
 }
+
+function doFocus(e) {
+//    alert("e.success = " + e.success +"\ne.id = "+e.id +"\ne.ref = "+ e.ref);
+//    e.ref.blur();
+}
