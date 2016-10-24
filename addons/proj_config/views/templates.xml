@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-    <!-- CUSTOM BOOTSTRAP THEME FOR KINO -->
+    <!-- CUSTOM BOOTSTRAP THEME FOR PROJUVE -->
     <!-- HINT: http://getbootstrap.com/customize -->
-    <template id="proj_theme_option" inherit_id="website.themes" name="Kino Theme Option">
+    <template id="proj_theme_option" inherit_id="website.themes" name="Proj Theme Option">
         <xpath expr='//div[@id="themes-list"]' position="inside">
             <div class="col-md-4">
                 <div class="well text-center">
                     <div class="image">
-                        <img class="img-responsive" src="/proj_config/static/src/img/proj_theme_thumbnail.png"
-                             alt="KINO"/>
+                        <img class="img-responsive" src="/proj_config/static/src/img/proj_theme_thumbnail.jpg"
+                             alt="PROJ"/>
                     </div>
                     <div class="options">
-                        <h3>KINO</h3>
-                        <p>Kindernothilfe</p>
+                        <h3>Proj</h3>
+                        <p>Projuventute</p>
                         <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_proj">Apply</a>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
     </template>
         
     <!-- load proj theme css and js -->
-    <template id="website.theme_proj" name="KINO" inherit_id="website.theme" active="False" customize_show="True">
+    <template id="website.theme_proj" name="PROJ" inherit_id="website.theme" active="False" customize_show="True">
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
             <link rel='stylesheet' href='/proj_config/static/src/css/bootstrap_proj/css/bootstrap.min.css' t-ignore="true"/>
             <link rel='stylesheet' href='/proj_config/static/src/css/bootstrap_proj/css/bootstrap-theme.min.css' t-ignore="true"/>
