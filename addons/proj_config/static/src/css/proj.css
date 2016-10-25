@@ -27,15 +27,45 @@
 
 
 #website_cookie_notice {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 80px;
     color: #fff;
-    background-color: #000!important;
+    background-color: rgba(0, 0, 0, 0.55)!important;
     overflow: hidden;
     z-index: 9001;
 }
 #website_cookie_notice a {
     color: #e72e30;
+}
+#website_cookie_notice a.btn.btn-primary {
+    color: white;
+}
+
+.ppt_opc .price_donate {
+    padding: 10px !important;
+    width: 70%;
+    margin: auto;
+}
+.price_donate .form-control {
+    color: black !important;
+}
+
+#wsd_checkout_form .form-control-feedback {
+    top: 0px !important;
+}
+#wsd_checkout_form .billing-fields .form-control-feedback {
+    top: 25px !important;
+  }
+.has-error .control-label {
+    color: #e72e30;
+}
+.text-danger {
+    color: #e72e30;
+}
+
+#wsd_checkout_form select[name="payment_interval_id"] {
+    width: 60%;
+    margin: auto;
 }
