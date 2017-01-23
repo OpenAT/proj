@@ -72,3 +72,7 @@
 .wsd_confirmation_page .row.wsd_confirmation_page_status {
     text-align: center;
 }
+
+#payment_method .nav>li>a {
+  padding: 10px 10px;
+}
