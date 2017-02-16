@@ -1,3 +1,9 @@
+/* OVERALL */
+body {
+  font-size: 12.8px;
+  line-height: 1.2;
+}
+
 /* DROPDOWN MENÜ */
   header .dropdown-menu a {
   background-color: #dbdbdb !important;
