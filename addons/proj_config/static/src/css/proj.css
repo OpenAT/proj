@@ -82,3 +82,9 @@ body {
 #payment_method .nav>li>a {
   padding: 10px 10px;
 }
+
+/* Image verhalten beim 3erblock */
+#wrap > section.mt16.mb64 > div > div > div:nth-child(1) > img {
+    width: 100%;
+    max-width: none;
+}
