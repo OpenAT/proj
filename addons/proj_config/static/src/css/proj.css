@@ -84,7 +84,7 @@ body {
 }
 
 /* Image verhalten beim 3erblock */
-#wrap > section.mt16.mb64 > div > div > div:nth-child(1) > img {
+#wrap > section > div.container > div.row > div.col-md-4 > img {
     width: 100%;
     max-width: none;
 }
