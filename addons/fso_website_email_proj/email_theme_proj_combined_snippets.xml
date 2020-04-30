@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_proj_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme proj Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_proj">
+                <a href="#combined_snippets_proj" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  proj COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_proj" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet allgemein</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersionallgemein" class="oe_snippet_body ckediting_disabled proj_bin">
+                        <div class="snippet_block ckediting_enabled snippet_block_text_intro proj_sb_bg_background">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <p class="proj_tiny"
+                                                                                               style="text-align: center;">
+                                                                                                <a href="%open_browser%"
+                                                                                                   data-cke-saved-href="%open_browser%"
+                                                                                                   target="_blank"
+                                                                                                   style="text-align: center; color: red; font-weight: 400; font-size: 12px;">
+                                                                                                    Online-Version
+                                                                                                </a>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="combinedheadersnippetallgemein" class="ckediting_enabled snippet_block_text_image_left proj_snippet_block_padding_none" style="padding-top: 10px;">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://www.projuventute.at">
+                                                                                                                <img style="width:150px;"
+                                                                                                                     class="flexibleImage"
+                                                                                                                     src="/fso_website_email_proj/static/src/img/proj-logo-kl.jpg"></img>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HEADER SNIPPET BLOCK AKADEMIE -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet akademie</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled proj_bin">
+                        <div class="snippet_block ckediting_enabled snippet_block_text_intro proj_sb_bg_background">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <p class="proj_tiny"
+                                                                                               style="text-align: center;">
+                                                                                                Wenn diese Nachricht
+                                                                                                nicht richtig angezeigt
+                                                                                                wird, verwenden Sie
+                                                                                                bitte die
+                                                                                                <a href="%open_browser%"
+                                                                                                   data-cke-saved-href="%open_browser%"
+                                                                                                   target="_blank"
+                                                                                                   style="text-align: center; color: red; font-weight: 400; font-size: 12px;">
+                                                                                                    Online-Version
+                                                                                                </a>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left proj_snippet_block_padding_none" style="padding-top: 10px;">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://www.projuventute.at">
+                                                                                                                <img style="width:200px;"
+                                                                                                                     class="flexibleImage"
+                                                                                                                     src="/fso_website_email_proj/static/src/img/proj-logo-kl.jpg"></img>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="combinedheadersnippetSubheaderakademie" class="ckediting_enabled snippet_block_text_intro proj_sb_bg_background">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0"
+                                                       cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="flexibleContainerCell" align="center"
+                                                                valign="top">
+                                                                <table class="nestedContainer" border="0"
+                                                                       cellpadding="0"
+                                                                       cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="nestedContainerCell"
+                                                                                align="center"
+                                                                                valign="top">
+                                                                                <table class="contentTable" border="0"
+                                                                                       cellpadding="0" cellspacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                contenteditable="true">
+                                                                                                <p style="text-align: right; color: grey;">
+                                                                                                    Newsletter der Pro
+                                                                                                    Juventute Akademie
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- HEADER SNIPPET BLOCK AKADEMIE 2-->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet akademie 2</span>
+                    </div>
+                    <div id="2combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled proj_bin">
+                        <div class="snippet_block ckediting_enabled snippet_block_text_intro proj_sb_bg_background">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <p class="proj_tiny"
+                                                                                               style="text-align: center;">
+                                                                                                Wenn diese Nachricht
+                                                                                                nicht richtig angezeigt
+                                                                                                wird, verwenden Sie
+                                                                                                bitte die
+                                                                                                <a href="%open_browser%"
+                                                                                                   data-cke-saved-href="%open_browser%"
+                                                                                                   target="_blank"
+                                                                                                   style="text-align: center; color: red; font-weight: 400; font-size: 12px;">
+                                                                                                    Online-Version
+                                                                                                </a>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="2combinedheadersnippettwocol" class="ckediting_enabled snippet_block_text_image_left proj_snippet_block_padding_none" style="padding-top: 10px;">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table class="flexibleContainerLeft"
+                                                                                               align="left" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                                style="width:10%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        valign="top"
+                                                                                                        class="textContent ckediting_enabled"
+                                                                                                        contenteditable="true">
+                                                                                                        <img src="/fso_website_email_proj/static/src/img/proj-logo-kl-100.jpg"
+                                                                                                             class="flexibleImage"
+                                                                                                             style="width:auto"/>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        <table class="flexibleContainerRight"
+                                                                                               align="right" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                                style="width:80%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        valign="top"
+                                                                                                        class="textContent ckediting_enabled"
+                                                                                                        contenteditable="true">
+                                                                                                        <img src="/fso_website_email_proj/static/src/img/proj-bannerbild-newsletter.jpg"
+                                                                                                             class="flexibleImage"
+                                                                                                             style="width:auto;"/>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        <div id="2combinedheadersnippetSubheaderakademie" class="ckediting_enabled snippet_block_text_intro proj_sb_bg_background">
+                                <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0"
+                                                       cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="flexibleContainerCell" align="center"
+                                                                valign="top">
+                                                                <table class="nestedContainer" border="0"
+                                                                       cellpadding="0"
+                                                                       cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="nestedContainerCell"
+                                                                                align="center"
+                                                                                valign="top">
+                                                                                <table class="contentTable" border="0"
+                                                                                       cellpadding="0" cellspacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                contenteditable="true">
+                                                                                                <p style="text-align: right; color: grey;">
+                                                                                                    Newsletter der Pro
+                                                                                                    Juventute Akademie
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- FOOTER SNIPPET BLOCK ALLGEMEIN -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_proj/static/src/icons/proj_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet Allgemein</span>
+                    </div>
+                    <div id="combinedsnippetfooterallgemein" class="oe_snippet_body ckediting_disabled proj_bin">
+                        <div id="footerendallgemein" class="ckediting_disabled snippet_block snippet_block_text_intro">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p style="text-align: center; color: rgb(51, 51, 51); font-size: 12.8px; background-color: transparent; text-align: center;">
+                                                                                                <span>
+                                                                                                    Pro Juventute, Fischergasse 17, 5020 Salzburg,
+                                                                                                </span>
+                                                                                            </p>
+
+                                                                                            <p style="text-align: center; color: rgb(51, 51, 51); font-size: 12.8px; background-color: transparent; text-align: center;">
+                                                                                                Bei Fragen wenden Sie sich bitte an unser Team:
+                                                                                                Tel.: 0662 4313 55 0<br></br>
+                                                                                                E-Mail: spenderservice@projuventute.at<br></br>
+                                                                                                Wenn Sie wissen wollen, wie Pro Juventute mit dem Datenschutz umgeht, bitte
+                                                                                                <a href="https://www.projuventute.at/de/datenschutz" target="_blank" style="text-align: center; font-size: 12.8px;">
+                                                                                                    hier entlang:
+                                                                                                </a>
+                                                                                                <a href="https://www.projuventute.at" target="_blank" style="text-align: center; font-size: 12.8px;">
+                                                                                                    www.projuventute.at
+                                                                                                </a>
+                                                                                                <br><br></br>
+                                                                                                    <a style="text-align: center; color: grey; font-size: 12.8px; background-color: transparent;"
+                                                                                                       href="https://www.projuventute.at/de/helfen_projuventute/fundraising-newsletter-abmeldung" target="_blank">
+                                                                                                        Vom Newsletter abmelden
+                                                                                                    </a>
+                                                                                                </br>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK Akademie -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_proj/static/src/icons/proj_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Akademie Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooterakademie" class="oe_snippet_body ckediting_disabled proj_bin">
+                        <div id="footerendakademie" class="ckediting_disabled snippet_block snippet_block_text_intro">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p style="text-align: center; color: rgb(51, 51, 51); font-size: 12.8px; background-color: transparent; text-align: center;">
+                                                                                                <span>
+                                                                                                    Pro Juventute Soziale Dienste GmbH, Fischergasse 17, 5020 Salzburg,
+                                                                                                </span>
+                                                                                            </p>
+
+                                                                                            <p style="text-align: center; color: rgb(51, 51, 51); font-size: 12.8px; background-color: transparent; text-align: center;">
+                                                                                                Tel.: +43(0)662/431355 - 23<br></br>
+
+                                                                                                E-Mail: akademie@projuventute.at<br></br>
+                                                                                                <a href="https://www.projuventute-akademie.at/de/datenschutz" target="_blank" style="text-align: center; font-size: 12.8px;">
+                                                                                                    Unserer Datenschutzbestimmungen
+                                                                                                </a>
+                                                                                                |
+                                                                                                <a href="https://www.projuventute-akademie.at" target="_blank" style="text-align: center; font-size: 12.8px;">
+                                                                                                    www.projuventute-akademie.at
+                                                                                                </a>
+                                                                                                <br><br></br>
+                                                                                                    <a style="text-align: center; color: grey; font-size: 12.8px; background-color: transparent;"
+                                                                                                       href="https://www.projuventute-akademie.at/de/newsletter/newsletterabmeldung" target="_blank">
+                                                                                                        HIER ABMELDEN
+                                                                                                    </a>
+                                                                                                </br>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>
