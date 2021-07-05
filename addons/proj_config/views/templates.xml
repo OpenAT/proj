@@ -3,27 +3,27 @@
     <data>
     <!-- CUSTOM BOOTSTRAP THEME FOR PROJUVE -->
     <!-- HINT: http://getbootstrap.com/customize -->
-    <template id="proj_theme_option" inherit_id="website.themes" name="Proj Theme Option">
-        <xpath expr='//div[@id="themes-list"]' position="inside">
-            <div class="col-md-4">
-                <div class="well text-center">
-                    <div class="image">
-                        <img class="img-responsive" src="/proj_config/static/src/img/proj_theme_thumbnail.jpg"
-                             alt="PROJ"/>
-                    </div>
-                    <div class="options">
-                        <h3>Proj</h3>
-                        <p>Projuventute</p>
-                        <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_proj">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </xpath>
-    </template>
+    <!--<template id="proj_theme_option" inherit_id="website.themes" name="Proj Theme Option">-->
+    <!--    <xpath expr='//div[@id="themes-list"]' position="inside">-->
+    <!--        <div class="col-md-4">-->
+    <!--            <div class="well text-center">-->
+    <!--                <div class="image">-->
+    <!--                    <img class="img-responsive" src="/proj_config/static/src/img/proj_theme_thumbnail.jpg"-->
+    <!--                         alt="PROJ"/>-->
+    <!--                </div>-->
+    <!--                <div class="options">-->
+    <!--                    <h3>Proj</h3>-->
+    <!--                    <p>Projuventute</p>-->
+    <!--                    <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_proj">Apply</a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </xpath>-->
+    <!--</template>-->
         
     <!-- load proj theme css and js -->
-    <template id="website.theme_proj" name="PROJ" inherit_id="website.theme" active="False" customize_show="True">
-        <xpath expr="//link[@id='bootstrap_css']" position="replace">
+    <template id="website.theme_proj" name="PROJ Website Theme" inherit_id="website.layout">
+        <xpath expr="//head" position="inside">
 
             <t t-if="not request or not request.httprequest or not request.httprequest.query_string or 'proj_theme_2021' not in request.httprequest.query_string">
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_initial/bootstrap_proj/css/bootstrap.min.css' t-ignore="true"/>
