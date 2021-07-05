@@ -107,3 +107,73 @@ body {
 #wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
     display: none;
 }
+/* special numbers for opc layout at headers and form layout  */
+h3.amount_title:before {
+    content: "1";
+    float: left;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    color: #e72e30;
+    /* border: red 1px solid; */
+    background-color: #e72e302b;
+    border-radius: 50%;
+}
+h3.checkout_title:before {
+    content: "2";
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    color: #e72e30;
+    /* border: red 1px solid; */
+    background-color: #e72e302b;
+    border-radius: 50%;
+}
+h3.payment_title:before {
+    content: "3";
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    color: #e72e30;
+    /* border: red 1px solid; */
+    background-color: #e72e302b;
+    border-radius: 50%;
+}
+#wsd-checkout-box h3.amount_title {
+    text-align: left;
+}
+
+.ppt_opc .price_donate_suggested {
+    min-width: 90px;
+    min-height: 90px;
+    background-image: none;
+}
+.price_donate_suggested_currency {
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    width: 90px;
+}
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+.ppt_opc .price_donate {
+    width: auto;
+}
+.arbitrary_price.form-inline {
+    text-align: left;
+}
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn {
+    border-radius: 0px;
+}
+#wsd_checkout_form select[name="payment_interval_id"] {
+    width: 100%;
+}
+h4.payment_interval_ids.payment_interval_lines_ids.text-center.form-inline {
+    text-align: left;
+}
