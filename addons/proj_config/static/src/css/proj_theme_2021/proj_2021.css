@@ -110,10 +110,13 @@ body {
 }
 /* special numbers for opc layout at headers and form layout  */
 .ppt_opc #website_sale_donate > div.container {
+    border: 1px solid #eee;
     border-left: 5px red solid;
     box-shadow: 5px 5px 3px -1px rgb(176 176 176 / 69%);
     -webkit-box-shadow: 5px 5px 3px -1px rgb(176 176 176 / 69%);
     -moz-box-shadow: 5px 5px 3px -1px rgba(176, 176, 176, 0.69);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .ppt_opc h3.amount_title:before {
     content: "1";
