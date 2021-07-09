@@ -108,6 +108,12 @@ body {
     display: none;
 }
 /* special numbers for opc layout at headers and form layout  */
+.ppt_opc #website_sale_donate > div.container {
+    border-left: 5px red solid;
+    box-shadow: 5px 5px 3px -1px rgb(176 176 176 / 69%);
+    -webkit-box-shadow: 5px 5px 3px -1px rgb(176 176 176 / 69%);
+    -moz-box-shadow: 5px 5px 3px -1px rgba(176, 176, 176, 0.69);
+}
 .ppt_opc h3.amount_title:before {
     content: "1";
     padding-top: 5px;
