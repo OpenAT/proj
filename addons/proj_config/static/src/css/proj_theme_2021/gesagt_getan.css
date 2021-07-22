@@ -1,1 +1,327 @@
 
+#website_sale_donate .ppt_opc-checkout {
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+#website_sale_donate label {
+  font-size: 18px;
+}
+
+#wsd-checkout-box .mt8.text-muted {
+  display: none;
+}
+
+small.text-muted {
+  padding-top: 20px;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#price_donate {
+  box-shadow: none;
+  border-bottom: 2px solid #e9ebec;
+  border-top: 2px solid #e9ebec;
+  border-left: none;
+  border-right: none;
+}
+
+.ppt_opc .js_product h3::before {
+  position: absolute;
+  left: -85px;
+  padding-top: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 10px;
+  background-color: #fce9e9;
+  font-size: 42px;
+  top: -4px;
+}
+
+.js_product h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.price_donate_suggested_outer {
+  padding-right: 20px;
+  width: 100%;
+}
+
+.price_donate_suggested {
+  box-shadow: none;
+  border: 2px solid #e9ebec;
+}
+
+.price_donate_suggested_outer .price_donate_suggested {
+  background: none;
+  color: black;
+  font-weight: 600;
+  font-size: 42px;
+  padding-top: 35px;
+  min-width: 95px;
+  min-height: 95px;
+}
+
+.price_donate_suggested_outer .price_donate_suggested_currency {
+  color: #929aa3;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+  width: 95px;
+}
+
+.price_donate_suggested_currency .btn-default {
+  color: black;
+}
+.price_donate .input-group-addon {
+  color: black;
+  box-shadow: none;
+  border: 2px solid #e9ebec;
+}
+.input-group-addon {
+  font-size: 18px;
+}
+.ppt_opc .price_donate {
+  padding: 0 !important;
+  max-width: 340px;
+  width: 100%;
+}
+
+.form-inline .form-group {
+  vertical-align: top;
+}
+
+.price_donate {
+  float: right;
+}
+
+#price_donate {
+  margin-top: 1px;
+
+  height: 70px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input.form-control {
+  box-shadow: none;
+  border: 2px solid #e9ebec;
+}
+.has-feedback .f-donation_deduction_optout_web {
+  margin-top: 30px;
+}
+.f-donation_deduction_optout_web input {
+  margin-right: 15px;
+}
+.text-danger {
+  color: black;
+}
+.payment_interval_ids hr {
+  border-top: none;
+}
+.payment_interval_ids.payment_interval_lines_ids {
+  border-bottom: 2px solid #e9ebec;
+  padding-bottom: 25px;
+}
+#wsd_checkout_form_inside_row {
+  margin-top: 40px;
+}
+.js_add_cart_variants {
+  max-width: 800px;
+  width: 100%;
+}
+
+.checkout_title,
+.payment_title {
+  padding-top: 12px;
+}
+.form-inline .radio label {
+  font-size: 18px;
+  color: #929aa3;
+}
+.form-inline input::placeholder {
+  color: #929aa3;
+  font-size: 18px;
+}
+.form-inline .radio input[type="radio"]:checked {
+  color: red;
+}
+.form-inline .radio label {
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+}
+.tab-content .tab-equal-height {
+  padding: 0;
+}
+.wsd_opc_payment .col-lg-12:first-child {
+  padding: 0;
+}
+.wsd_opc_payment .col-lg-12:nth-child(2) {
+  border: 2px #e9ebec solid;
+  padding-bottom: 35px;
+  padding-right: 0;
+  padding-left: 0;
+  height: 300px;
+}
+.js_payment {
+  margin-bottom: 30px;
+}
+.js_product .btn-primary.a-submit {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  float: right;
+  border: none;
+  background: #e73230;
+  box-shadow: 0 5px 15px 0 rgba(231, 50, 48, 0.5);
+  transition: box-shadow 0.5s ease;
+  margin-bottom: 30px;
+}
+.js_product .btn-primary.a-submit:focus,
+.js_product .btn-primary.a-submit:hover {
+  box-shadow: 0 0 15px 0 rgba(231, 50, 48, 0.8);
+}
+.mt16 {
+  margin-top: 0 !important;
+}
+.acquirer_pre_msg {
+  padding: 10px 15px;
+}
+#aq3 {
+  padding: 0 15px;
+}
+#payment_method {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#payment_method h3::before {
+  left: -95px;
+}
+.nav-tabs > li {
+  border: 2px solid #e9ebec;
+  border-collapse: collapse;
+  margin: -1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-tabs > li:last-of-type {
+  border-right: none;
+  flex: 1;
+}
+.nav-tabs > li.active {
+  border-bottom: 2px solid #f4f5f6;
+}
+.nav-tabs > li > a {
+  margin-right: 0;
+  color: black;
+  text-transform: capitalize;
+}
+#payment_method .nav > li > a {
+  padding: 10px 30px;
+  margin-left: 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: black;
+  font-weight: 600;
+  cursor: default;
+  background-color: #f4f5f6;
+  border: none;
+  border-bottom: 2px solid #f4f5f6;
+}
+.ppt_opc #website_sale_donate > div.container {
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.08);
+}
+.js_sale.oe_website_sale.ppt.ppt_opc {
+  padding-bottom: 30px;
+}
+#website_sale_donate {
+  padding-bottom: 30px;
+}
+.nav-tabs {
+  border-bottom: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#price_donate.btn-primary {
+  background: white;
+}
+.js_check_product.a-submit span::after {
+  content: "";
+  background-image: url("https://web-projekt.projuventute.at/_Resources/Static/Packages/GesagtGetan.Theme/Assets/Svgs/heart-line-white.svg");
+  background-repeat: no-repeat;
+  background-size: 22px 19px;
+  width: 100%;
+  height: 19px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 15px;
+  vertical-align: sub;
+}
+.js_check_product.a-submit svg {
+  color: white;
+  fill: currentcolor;
+}
+#legal_terms_web,
+#newsletter_web {
+  margin-right: 15px;
+}
+.f-legal_terms_web {
+  display: block;
+  padding-left: 35px;
+  text-indent: -35px;
+}
+.f-newsletter_web,
+.f-legal_terms_web,
+.f-donation_deduction_optout_web {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .js_product .btn-primary.a-submit {
+    font-size: 16px;
+  }
+  #website_sale_donate .ppt_opc-checkout {
+    margin-left: 75px;
+    margin-top: 130px;
+  }
+  .wsd_opc_payment .col-lg-12:nth-child(2) {
+    height: 400px;
+  }
+  .ppt_opc .js_product h3::before {
+    position: absolute;
+    left: -50px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-size: 31px;
+    top: 0px;
+  }
+  #payment_method h3::before {
+    left: -65px;
+    top: -9px;
+  }
+  .ppt_opc .price_donate {
+    padding: 20px 0 !important;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .ppt_opc .payment_interval_ids small.text-muted {
+    margin: 25px 0;
+  }
+}
