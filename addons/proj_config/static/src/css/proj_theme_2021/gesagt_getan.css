@@ -260,7 +260,7 @@ input.form-control {
 }
 .js_check_product.a-submit span::after {
   content: "";
-  background-image: url("https://web-projekt.projuventute.at/_Resources/Static/Packages/GesagtGetan.Theme/Assets/Svgs/heart-line-white.svg");
+  background-image: url("/proj_config/static/src/img/heart-line.svg");
   background-repeat: no-repeat;
   background-size: 22px 19px;
   width: 100%;
