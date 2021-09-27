@@ -1,3 +1,47 @@
+/** BEGIN override WYSIWYG inline styles **/
+#product_desc_short_top p,
+#product_desc_short_top span,
+#product_desc_short_top div,
+#product_desc_short_top li {
+  font-family: "AvenirLTStd",Arial,Verdana,Helvetica !important;
+  font-size: 18px !important;
+  line-height: 1.83 !important;
+}
+
+#product_desc_short_top .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#product_desc_short_top h2,
+#product_desc_short_top h3,
+#product_desc_short_top h4,
+#product_desc_short_top h5,
+#product_desc_short_top h6 {
+    margin-top: 0;
+}
+
+#product_desc_short_top ul {
+  list-style: none;
+  padding-left: 27px;
+  line-height: 1.61;
+}
+
+#product_desc_short_top li {
+  position: relative;
+}
+
+#product_desc_short_top li:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -27px;
+  background: #e73230;
+  width: 7px;
+  height: 7px;
+}
+/** END override WYSIWYG inline styles **/
+
 #website_sale_donate .ppt_opc-checkout {
   margin-left: 125px;
   margin-top: 50px;
