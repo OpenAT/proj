@@ -496,3 +496,74 @@ input.form-control {
     width: 65px;
   }
 }
+
+/** BEGIN: Newsletter form styling  **/
+#wrapwrap {
+  margin-top: 100px;
+}
+#wrap .fsoforms_container.container {
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 5px 5px 3px -1px hsla(0, 0%, 69%, 0.69);
+  border: 1px solid #eee;
+  border-left: 5px red solid;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+#fsoforms_submit_button {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  float: right;
+  border: none;
+  background: #e73230;
+  box-shadow: 0 5px 15px 0 rgba(231, 50, 48, 0.5);
+  transition: box-shadow 0.5s ease;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1;
+  margin-right: 15px;
+}
+#fsoforms_submit_button:hover {
+  box-shadow: 0 0 15px 0 rgba(231, 50, 48, 0.8);
+}
+#wrap label {
+  font-size: 18px;
+}
+#wrapwrap #fso_form.fso_form_validate {
+  margin: 50px;
+}
+#wrap .form-group {
+  margin-bottom: 18px;
+}
+@media only screen and (max-width: 768px) {
+  #wrap .fsoforms_container.container {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  #wrapwrap #fso_form.fso_form_validate {
+    margin: 30px 0;
+  }
+  #fsoforms_submit_button {
+    margin-right: -15px;
+    margin-bottom: 15px;
+  }
+  #wrap .fsoforms_container.container,
+  #wrap .form-group.col-sm-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #wrapwrap {
+    margin-top: 60px;
+  }
+  #wrapwrap .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/** END: Newsletter form styling  **/
