@@ -42,6 +42,46 @@
 }
 /** END override WYSIWYG inline styles **/
 
+/** BEGIN override progress bar **/
+.crowdfunding  {
+  margin-bottom: 60px;
+  padding-right: 20% !important;
+  padding-left: 0% !important;
+}
+
+.crowdfunding .text-muted {
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1em !important;
+}
+
+.crowdfunding .text-primary {
+  margin: 0.5em 0;
+}
+
+.funding_progress_bar.progress {
+  height: 50px;
+  box-shadow: none;
+  background: #fce9e9;
+  padding: 0;
+}
+
+.funding_progress_bar.progress .progress-bar {
+  color: white;
+  background-color: #e73230;
+  line-height: 50px;
+  background-size: 50px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .crowdfunding  {
+    padding-right: 0% !important;
+  }
+}
+
+/** END override progress bar **/
+
 #website_sale_donate .ppt_opc-checkout {
   margin-left: 125px;
   margin-top: 50px;
