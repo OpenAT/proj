@@ -110,8 +110,13 @@ label.text-danger::after {
 }
 .form-control:hover {
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(215, 218, 219, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(215, 218, 219, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(215, 218, 219, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(215, 218, 219, 0.6);
+}
+.has-feedback .form-control {
+  padding-right: 5px;
 }
 #price_donate {
   box-shadow: none;
@@ -484,7 +489,7 @@ input.form-control {
     margin-left: 0;
   }
   .ppt_opc-checkout .col-md-12 {
-    padding-right: 30px;
+    padding-right: 20px;
     padding-left: 30px;
   }
   .form-group.has-feedback.col-xs-9,
@@ -497,6 +502,7 @@ input.form-control {
   #wsd_checkout_form_inside_row .col-md-12,
   .row.billing-fields .form-group {
     padding: 0;
+    padding-right: 5px;
   }
   .js_sale.oe_website_sale.ppt.ppt_opc {
     margin-left: 20px;
@@ -522,6 +528,12 @@ input.form-control {
   #street_number_web {
     padding-right: 0 !important;
   }
+  .js_product .btn-primary.a-submit {
+    text-transform: unset;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: inherit;
+  }
 }
 @media only screen and (max-width: 357px) {
   .price_donate_suggested_outer .price_donate_suggested {
@@ -536,12 +548,11 @@ input.form-control {
     width: 65px;
   }
 }
-
 /** BEGIN: Newsletter form styling  **/
 #wrapwrap {
   margin-top: 100px;
 }
-#wrap .fsoforms_container.container {
+#wrapwrap .fsoforms_container.container {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.08);
   box-shadow: 5px 5px 3px -1px hsla(0, 0%, 69%, 0.69);
   border: 1px solid #eee;
@@ -572,17 +583,17 @@ input.form-control {
 #fsoforms_submit_button:hover {
   box-shadow: 0 0 15px 0 rgba(231, 50, 48, 0.8);
 }
-#wrap label {
+#wrapwrap label {
   font-size: 18px;
 }
 #wrapwrap #fso_form.fso_form_validate {
   margin: 50px;
 }
-#wrap .form-group {
+#wrapwrap .form-group {
   margin-bottom: 18px;
 }
 @media only screen and (max-width: 768px) {
-  #wrap .fsoforms_container.container {
+  #wrapwrap .fsoforms_container.container {
     margin-right: 25px;
     margin-left: 25px;
   }
@@ -593,8 +604,8 @@ input.form-control {
     margin-right: -15px;
     margin-bottom: 15px;
   }
-  #wrap .fsoforms_container.container,
-  #wrap .form-group.col-sm-12 {
+  #wrapwrap .fsoforms_container.container,
+  #wrapwrap .form-group.col-sm-12 {
     padding-right: 0;
     padding-left: 0;
   }
