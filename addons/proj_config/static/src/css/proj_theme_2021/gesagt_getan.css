@@ -43,7 +43,7 @@
 /** END override WYSIWYG inline styles **/
 
 /** BEGIN override progress bar **/
-.crowdfunding  {
+.crowdfunding {
   margin-bottom: 60px;
   padding-right: 20% !important;
   padding-left: 0% !important;
@@ -75,7 +75,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .crowdfunding  {
+  .crowdfunding {
     padding-right: 0% !important;
   }
 }
