@@ -1,0 +1,37 @@
+.survey_page_snippets {
+  counter-reset: section;
+}
+
+.js_question-wrapper:before {
+  counter-increment: section;
+  content: "\00a0" counter(section) "\00a0";
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  float: left;
+  border: 1px solid #FF0000;
+  background-color: #ff0000;
+
+}
+.js_question-wrapper:before:after {
+    content: "fff";
+}
+.js_question-wrapper .row.js_radio {
+  margin-left: 40px;
+  display: -webkit-inline-box;
+
+}
+
+form.js_surveyform .btn-primary {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  float: right;
+  border: none;
+  background: #e73230;
+  box-shadow: 0 5px 15px 0 rgba(231, 50, 48, 0.5);
+  transition: box-shadow 0.5s ease;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+}

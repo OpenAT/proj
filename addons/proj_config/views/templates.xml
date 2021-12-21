@@ -36,9 +36,8 @@
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/bootstrap_proj/css/bootstrap-theme.min.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/Fonts.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/proj_2021.css' t-ignore="true"/>
-                
+                <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/survey.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/gesagt_getan.css' t-ignore="true"/>
-                
             </t>
 
         </xpath>
