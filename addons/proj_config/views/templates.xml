@@ -25,20 +25,21 @@
     <template id="website.theme_proj" name="PROJ Website Theme" inherit_id="website.layout">
         <xpath expr="//head" position="inside">
 
-            <t t-if="not request or not request.httprequest or not request.httprequest.query_string or 'proj_theme_2021' not in request.httprequest.query_string">
+<!--            <t t-if="not request or not request.httprequest or not request.httprequest.query_string or 'proj_theme_2021' not in request.httprequest.query_string">
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_initial/bootstrap_proj/css/bootstrap.min.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_initial/bootstrap_proj/css/bootstrap-theme.min.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_initial/proj.css' t-ignore="true"/>
             </t>
+-->
 
-            <t t-if="'proj_theme_2021' in request.httprequest.query_string">
+            <!--<t t-if="'proj_theme_2021' in request.httprequest.query_string">-->
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/bootstrap_proj/css/bootstrap.min.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/bootstrap_proj/css/bootstrap-theme.min.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/Fonts.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/proj_2021.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/survey.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/proj_config/static/src/css/proj_theme_2021/gesagt_getan.css' t-ignore="true"/>
-            </t>
+            <!--</t>-->
 
         </xpath>
     </template>

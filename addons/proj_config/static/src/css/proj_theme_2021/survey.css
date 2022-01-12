@@ -1,3 +1,16 @@
+
+/*#wrapwrap > main > div > div.container > div.survey_page_snippets.survey_page_snippets_top > div > section > div > div > div > h1 {
+  font-size: 41px;
+}*/
+
+#wrapwrap > main > div > div.container > div.page-header > h1[data-oe-model="survey.page"] {
+    font-size: 26px;
+}
+
+js_question-wrapper > h2 {
+    font-size: 26px;
+}
+
 .survey_page_snippets {
   counter-reset: section;
 }
@@ -13,14 +26,18 @@
   background-color: #ff0000;
 
 }
+.js_question-wrapper > span {
+    display: flex;
+}
+
 .js_question-wrapper:before:after {
     content: "fff";
 }
 .js_question-wrapper .row.js_radio {
   margin-left: 40px;
   display: -webkit-inline-box;
-
 }
+
 
 form.js_surveyform .btn-primary {
   color: white;
