@@ -25,7 +25,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                             src="/fso_website_email_proj/static/src/img/snippet-header.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet allgemein</span>
                     </div>
                     <div id="combinedheadersnippetWebVersionallgemein" class="oe_snippet_body ckediting_disabled proj_bin">
@@ -154,7 +154,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                             src="/fso_website_email_proj/static/src/img/snippet-header.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet akademie</span>
                     </div>
                     <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled proj_bin">
@@ -334,7 +334,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_proj/static/src/icons/proj_header_icon.png"/>
+                             src="/fso_website_email_proj/static/src/img/snippet-header.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet akademie 2</span>
                     </div>
                     <div id="2combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled proj_bin">
@@ -518,7 +518,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_proj/static/src/icons/proj_footer_icon.png"/>
+                             src="/fso_website_email_proj/static/src/img/snippet-footer.png"/>
                         <span class="oe_snippet_thumbnail_title">Footer Snippet Allgemein</span>
                     </div>
                     <div id="combinedsnippetfooterallgemein" class="oe_snippet_body ckediting_disabled proj_bin">
@@ -601,7 +601,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_proj/static/src/icons/proj_footer_icon.png"/>
+                             src="/fso_website_email_proj/static/src/img/snippet-footer.png"/>
                         <span class="oe_snippet_thumbnail_title">Akademie Footer Snippet</span>
                     </div>
                     <div id="combinedsnippetfooterakademie" class="oe_snippet_body ckediting_disabled proj_bin">
